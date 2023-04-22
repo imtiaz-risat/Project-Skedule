@@ -72,6 +72,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Image = global::Skedule.Properties.Resources.settings_white_32x32;
             this.button6.Location = new System.Drawing.Point(0, 500);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(82, 77);
@@ -85,6 +86,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Image = global::Skedule.Properties.Resources.analysis_white_40x40;
             this.button5.Location = new System.Drawing.Point(0, 393);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(82, 77);
@@ -98,6 +100,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Image = global::Skedule.Properties.Resources.assignment_white_42x42;
             this.button4.Location = new System.Drawing.Point(0, 316);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(82, 77);
@@ -111,6 +114,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Image = global::Skedule.Properties.Resources.annoucement_white_42x42;
             this.button3.Location = new System.Drawing.Point(0, 239);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(82, 77);
@@ -124,6 +128,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Image = global::Skedule.Properties.Resources.calendar_white_36x36;
             this.button2.Location = new System.Drawing.Point(0, 162);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 77);
