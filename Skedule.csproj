@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classroom.cs" />
     <Compile Include="DashboardChildForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -72,6 +73,7 @@
     <Compile Include="RoutineChildForm.Designer.cs">
       <DependentUpon>RoutineChildForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student.cs" />
     <EmbeddedResource Include="DashboardChildForm.resx">
       <DependentUpon>DashboardChildForm.cs</DependentUpon>
     </EmbeddedResource>
