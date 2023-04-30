@@ -30,24 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuPanel = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.childFormPanel = new System.Windows.Forms.Panel();
-            this.labelFormTitle = new System.Windows.Forms.Label();
-            this.formHeaderPanel = new System.Windows.Forms.Panel();
-            this.labelUsernameID = new System.Windows.Forms.Label();
-            this.pictureBoxUserIcon = new System.Windows.Forms.PictureBox();
             this.menuButtonSettings = new System.Windows.Forms.Button();
             this.menuButtonAnalysis = new System.Windows.Forms.Button();
             this.menuButtonQuiz = new System.Windows.Forms.Button();
             this.menuButtonAssignment = new System.Windows.Forms.Button();
             this.menuButtonRoutine = new System.Windows.Forms.Button();
             this.menuButtonHome = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBoxSkeduleLogo = new System.Windows.Forms.PictureBox();
+            this.childFormPanel = new System.Windows.Forms.Panel();
+            this.labelFormTitle = new System.Windows.Forms.Label();
+            this.formHeaderPanel = new System.Windows.Forms.Panel();
+            this.labelUsernameID = new System.Windows.Forms.Label();
+            this.pictureBoxUserIcon = new System.Windows.Forms.PictureBox();
             this.menuPanel.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkeduleLogo)).BeginInit();
             this.formHeaderPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkeduleLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // menuPanel
@@ -65,68 +65,6 @@
             this.menuPanel.Name = "menuPanel";
             this.menuPanel.Size = new System.Drawing.Size(82, 577);
             this.menuPanel.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.pictureBoxSkeduleLogo);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(82, 85);
-            this.panel2.TabIndex = 0;
-            // 
-            // childFormPanel
-            // 
-            this.childFormPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.childFormPanel.Location = new System.Drawing.Point(82, 61);
-            this.childFormPanel.Name = "childFormPanel";
-            this.childFormPanel.Size = new System.Drawing.Size(869, 516);
-            this.childFormPanel.TabIndex = 4;
-            // 
-            // labelFormTitle
-            // 
-            this.labelFormTitle.AutoSize = true;
-            this.labelFormTitle.Dock = System.Windows.Forms.DockStyle.Left;
-            this.labelFormTitle.Font = new System.Drawing.Font("Dubai", 28.55F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFormTitle.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelFormTitle.Location = new System.Drawing.Point(0, 0);
-            this.labelFormTitle.Name = "labelFormTitle";
-            this.labelFormTitle.Size = new System.Drawing.Size(181, 66);
-            this.labelFormTitle.TabIndex = 0;
-            this.labelFormTitle.Text = "Welcome";
-            // 
-            // formHeaderPanel
-            // 
-            this.formHeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(26)))), ((int)(((byte)(45)))));
-            this.formHeaderPanel.Controls.Add(this.labelUsernameID);
-            this.formHeaderPanel.Controls.Add(this.pictureBoxUserIcon);
-            this.formHeaderPanel.Controls.Add(this.labelFormTitle);
-            this.formHeaderPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.formHeaderPanel.Location = new System.Drawing.Point(82, 0);
-            this.formHeaderPanel.Name = "formHeaderPanel";
-            this.formHeaderPanel.Size = new System.Drawing.Size(869, 61);
-            this.formHeaderPanel.TabIndex = 3;
-            // 
-            // labelUsernameID
-            // 
-            this.labelUsernameID.AutoSize = true;
-            this.labelUsernameID.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUsernameID.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelUsernameID.Location = new System.Drawing.Point(718, 14);
-            this.labelUsernameID.Name = "labelUsernameID";
-            this.labelUsernameID.Size = new System.Drawing.Size(92, 34);
-            this.labelUsernameID.TabIndex = 2;
-            this.labelUsernameID.Text = "Login/Signup\r\nID: ********";
-            // 
-            // pictureBoxUserIcon
-            // 
-            this.pictureBoxUserIcon.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxUserIcon.Image")));
-            this.pictureBoxUserIcon.Location = new System.Drawing.Point(667, 8);
-            this.pictureBoxUserIcon.Name = "pictureBoxUserIcon";
-            this.pictureBoxUserIcon.Size = new System.Drawing.Size(48, 46);
-            this.pictureBoxUserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxUserIcon.TabIndex = 1;
-            this.pictureBoxUserIcon.TabStop = false;
             // 
             // menuButtonSettings
             // 
@@ -212,6 +150,15 @@
             this.menuButtonHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuButtonHome.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBoxSkeduleLogo);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(82, 85);
+            this.panel2.TabIndex = 0;
+            // 
             // pictureBoxSkeduleLogo
             // 
             this.pictureBoxSkeduleLogo.Image = global::Skedule.Properties.Resources.skeduleShortLogo;
@@ -221,6 +168,59 @@
             this.pictureBoxSkeduleLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxSkeduleLogo.TabIndex = 0;
             this.pictureBoxSkeduleLogo.TabStop = false;
+            // 
+            // childFormPanel
+            // 
+            this.childFormPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.childFormPanel.Location = new System.Drawing.Point(82, 61);
+            this.childFormPanel.Name = "childFormPanel";
+            this.childFormPanel.Size = new System.Drawing.Size(869, 516);
+            this.childFormPanel.TabIndex = 4;
+            // 
+            // labelFormTitle
+            // 
+            this.labelFormTitle.AutoSize = true;
+            this.labelFormTitle.Dock = System.Windows.Forms.DockStyle.Left;
+            this.labelFormTitle.Font = new System.Drawing.Font("Dubai", 28.55F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFormTitle.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelFormTitle.Location = new System.Drawing.Point(0, 0);
+            this.labelFormTitle.Name = "labelFormTitle";
+            this.labelFormTitle.Size = new System.Drawing.Size(181, 66);
+            this.labelFormTitle.TabIndex = 0;
+            this.labelFormTitle.Text = "Welcome";
+            // 
+            // formHeaderPanel
+            // 
+            this.formHeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(26)))), ((int)(((byte)(45)))));
+            this.formHeaderPanel.Controls.Add(this.labelUsernameID);
+            this.formHeaderPanel.Controls.Add(this.pictureBoxUserIcon);
+            this.formHeaderPanel.Controls.Add(this.labelFormTitle);
+            this.formHeaderPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.formHeaderPanel.Location = new System.Drawing.Point(82, 0);
+            this.formHeaderPanel.Name = "formHeaderPanel";
+            this.formHeaderPanel.Size = new System.Drawing.Size(869, 61);
+            this.formHeaderPanel.TabIndex = 3;
+            // 
+            // labelUsernameID
+            // 
+            this.labelUsernameID.AutoSize = true;
+            this.labelUsernameID.Font = new System.Drawing.Font("Ebrima", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsernameID.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelUsernameID.Location = new System.Drawing.Point(718, 14);
+            this.labelUsernameID.Name = "labelUsernameID";
+            this.labelUsernameID.Size = new System.Drawing.Size(92, 34);
+            this.labelUsernameID.TabIndex = 2;
+            this.labelUsernameID.Text = "Login/Signup\r\nID: ********";
+            // 
+            // pictureBoxUserIcon
+            // 
+            this.pictureBoxUserIcon.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxUserIcon.Image")));
+            this.pictureBoxUserIcon.Location = new System.Drawing.Point(667, 8);
+            this.pictureBoxUserIcon.Name = "pictureBoxUserIcon";
+            this.pictureBoxUserIcon.Size = new System.Drawing.Size(48, 46);
+            this.pictureBoxUserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxUserIcon.TabIndex = 1;
+            this.pictureBoxUserIcon.TabStop = false;
             // 
             // Form1
             // 
@@ -237,10 +237,10 @@
             this.Text = "MainForm";
             this.menuPanel.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkeduleLogo)).EndInit();
             this.formHeaderPanel.ResumeLayout(false);
             this.formHeaderPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkeduleLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
