@@ -15,6 +15,19 @@ namespace Skedule
         public Form1()
         {
             InitializeComponent();
+            this.Load += MainForm_Load;
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            // Code to open the LogincChildForm inside the panel
+            LoginChildForm loginchildForm = new LoginChildForm();
+            loginchildForm.TopLevel = false;
+            loginchildForm.Parent = childFormPanel; // childFormPanel is the name of Panel control
+            loginchildForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(loginchildForm);
+            loginchildForm.Show();
+        }
+
     }
 }
