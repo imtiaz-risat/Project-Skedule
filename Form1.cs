@@ -12,22 +12,54 @@ namespace Skedule
 {
     public partial class Form1 : Form
     {
+        private LoginChildForm loginForm;
+        private DashboardChildForm dashboardForm;
+
         public Form1()
         {
             InitializeComponent();
             this.Load += MainForm_Load;
+
+            // Instantiate the child forms
+            loginForm = new LoginChildForm();
+            dashboardForm = new DashboardChildForm();
+
+            // Set the parent form for the child forms
+            loginForm.parentForm = this;
+            dashboardForm.parentForm = this;
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        public void MainForm_Load(object sender, EventArgs e)
         {
             // Code to open the LogincChildForm inside the panel
-            LoginChildForm loginchildForm = new LoginChildForm();
-            loginchildForm.TopLevel = false;
-            loginchildForm.Parent = childFormPanel; // childFormPanel is the name of Panel control
-            loginchildForm.Dock = DockStyle.Fill;
-            childFormPanel.Controls.Add(loginchildForm);
-            loginchildForm.Show();
+            ShowLoginForm();
         }
+
+        public void ShowLoginForm()
+        {
+            // Hide the dashboard form
+            dashboardForm.Hide();
+
+            // Show the login form inside the panel
+            loginForm.TopLevel = false;
+            loginForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(loginForm);
+            loginForm.Show();
+        }
+
+
+        public void ShowDashboardForm()
+        {
+            // Hide the login form
+            loginForm.Hide();
+
+            // Show the dashboard form inside the panel
+            dashboardForm.TopLevel = false;
+            dashboardForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(dashboardForm);
+            dashboardForm.Show();
+        }
+
 
     }
 }

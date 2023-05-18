@@ -14,13 +14,15 @@ namespace Skedule
     {
         public List<Student> studentsList;
 
+        public bool TopLevel { get; internal set; }
+
+        public Form1 parentForm { get; set; }
+
         public LoginChildForm()
         {
             InitializeComponent();
             studentsList = new List<Student>();
         }
-
-        public bool TopLevel { get; internal set; }
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
@@ -34,6 +36,9 @@ namespace Skedule
             {
                 MessageBox.Show("Login successful!");
                 // Open the main form or perform any necessary actions
+                // After successful login
+                parentForm.ShowDashboardForm();
+
             }
             else
             {
@@ -91,5 +96,6 @@ namespace Skedule
             textBoxSignupLastname.Text = "";
             birthdatePickerSignup.Value = DateTime.Now;
         }
+
     }
 }

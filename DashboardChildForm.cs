@@ -12,9 +12,18 @@ namespace Skedule
 {
     public partial class DashboardChildForm : UserControl
     {
+        public Form1 parentForm { get; set; }
+
         public DashboardChildForm()
         {
             InitializeComponent();
+        }
+
+        public bool TopLevel { get; internal set; }
+
+        private void DashboardChildForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

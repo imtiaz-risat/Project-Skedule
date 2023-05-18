@@ -290,6 +290,7 @@
             this.Controls.Add(this.panelDashboardUp);
             this.Name = "DashboardChildForm";
             this.Size = new System.Drawing.Size(869, 516);
+            this.Load += new System.EventHandler(this.DashboardChildForm_Load);
             this.panelDashboardUp.ResumeLayout(false);
             this.panelDashboardUp.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
