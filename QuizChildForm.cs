@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Skedule
 {
-    public partial class RoutineChildForm : UserControl
+    public partial class QuizChildForm : UserControl
     {
-        public RoutineChildForm()
+        public QuizChildForm()
         {
             InitializeComponent();
         }
 
-        private void RoutineChildForm_Load(object sender, EventArgs e)
+        private void buttonEditClass_Click(object sender, EventArgs e)
         {
 
         }

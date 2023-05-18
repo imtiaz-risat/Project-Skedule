@@ -54,9 +54,10 @@
             this.columnHeader3});
             this.listViewRoutine.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listViewRoutine.HideSelection = false;
-            this.listViewRoutine.Location = new System.Drawing.Point(25, 68);
+            this.listViewRoutine.Location = new System.Drawing.Point(33, 84);
+            this.listViewRoutine.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listViewRoutine.Name = "listViewRoutine";
-            this.listViewRoutine.Size = new System.Drawing.Size(819, 428);
+            this.listViewRoutine.Size = new System.Drawing.Size(1091, 526);
             this.listViewRoutine.TabIndex = 12;
             this.listViewRoutine.UseCompatibleStateImageBehavior = false;
             this.listViewRoutine.View = System.Windows.Forms.View.Details;
@@ -91,9 +92,10 @@
             this.buttonSatDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSatDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSatDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonSatDay.Location = new System.Drawing.Point(373, 30);
+            this.buttonSatDay.Location = new System.Drawing.Point(497, 37);
+            this.buttonSatDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSatDay.Name = "buttonSatDay";
-            this.buttonSatDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonSatDay.Size = new System.Drawing.Size(73, 38);
             this.buttonSatDay.TabIndex = 2;
             this.buttonSatDay.Text = "Sat";
             this.buttonSatDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -106,9 +108,10 @@
             this.buttonFriDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFriDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFriDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonFriDay.Location = new System.Drawing.Point(315, 30);
+            this.buttonFriDay.Location = new System.Drawing.Point(420, 37);
+            this.buttonFriDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonFriDay.Name = "buttonFriDay";
-            this.buttonFriDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonFriDay.Size = new System.Drawing.Size(73, 38);
             this.buttonFriDay.TabIndex = 3;
             this.buttonFriDay.Text = "Fri";
             this.buttonFriDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -121,9 +124,10 @@
             this.buttonThuDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonThuDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonThuDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonThuDay.Location = new System.Drawing.Point(257, 30);
+            this.buttonThuDay.Location = new System.Drawing.Point(343, 37);
+            this.buttonThuDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonThuDay.Name = "buttonThuDay";
-            this.buttonThuDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonThuDay.Size = new System.Drawing.Size(73, 38);
             this.buttonThuDay.TabIndex = 4;
             this.buttonThuDay.Text = "Thu";
             this.buttonThuDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -136,9 +140,10 @@
             this.buttonWedDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonWedDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonWedDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonWedDay.Location = new System.Drawing.Point(199, 30);
+            this.buttonWedDay.Location = new System.Drawing.Point(265, 37);
+            this.buttonWedDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonWedDay.Name = "buttonWedDay";
-            this.buttonWedDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonWedDay.Size = new System.Drawing.Size(73, 38);
             this.buttonWedDay.TabIndex = 5;
             this.buttonWedDay.Text = "Wed";
             this.buttonWedDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -151,9 +156,10 @@
             this.buttonTueDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonTueDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTueDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonTueDay.Location = new System.Drawing.Point(141, 30);
+            this.buttonTueDay.Location = new System.Drawing.Point(188, 37);
+            this.buttonTueDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonTueDay.Name = "buttonTueDay";
-            this.buttonTueDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonTueDay.Size = new System.Drawing.Size(73, 38);
             this.buttonTueDay.TabIndex = 6;
             this.buttonTueDay.Text = "Tue";
             this.buttonTueDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -166,9 +172,10 @@
             this.buttonMonDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMonDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMonDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonMonDay.Location = new System.Drawing.Point(83, 30);
+            this.buttonMonDay.Location = new System.Drawing.Point(111, 37);
+            this.buttonMonDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonMonDay.Name = "buttonMonDay";
-            this.buttonMonDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonMonDay.Size = new System.Drawing.Size(73, 38);
             this.buttonMonDay.TabIndex = 7;
             this.buttonMonDay.Text = "Mon";
             this.buttonMonDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -181,9 +188,10 @@
             this.buttonSunDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSunDay.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSunDay.ForeColor = System.Drawing.Color.AliceBlue;
-            this.buttonSunDay.Location = new System.Drawing.Point(25, 30);
+            this.buttonSunDay.Location = new System.Drawing.Point(33, 37);
+            this.buttonSunDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSunDay.Name = "buttonSunDay";
-            this.buttonSunDay.Size = new System.Drawing.Size(55, 31);
+            this.buttonSunDay.Size = new System.Drawing.Size(73, 38);
             this.buttonSunDay.TabIndex = 8;
             this.buttonSunDay.Text = "Sun";
             this.buttonSunDay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -198,9 +206,10 @@
             this.buttonAddClass.Font = new System.Drawing.Font("Ebrima", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAddClass.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonAddClass.Image = global::Skedule.Properties.Resources.add_green_32x32;
-            this.buttonAddClass.Location = new System.Drawing.Point(717, 21);
+            this.buttonAddClass.Location = new System.Drawing.Point(956, 26);
+            this.buttonAddClass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAddClass.Name = "buttonAddClass";
-            this.buttonAddClass.Size = new System.Drawing.Size(35, 41);
+            this.buttonAddClass.Size = new System.Drawing.Size(47, 50);
             this.buttonAddClass.TabIndex = 9;
             this.buttonAddClass.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAddClass.UseVisualStyleBackColor = false;
@@ -214,9 +223,10 @@
             this.buttonEditClass.Font = new System.Drawing.Font("Ebrima", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEditClass.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonEditClass.Image = global::Skedule.Properties.Resources.edit_yellow_32x32;
-            this.buttonEditClass.Location = new System.Drawing.Point(761, 21);
+            this.buttonEditClass.Location = new System.Drawing.Point(1015, 26);
+            this.buttonEditClass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonEditClass.Name = "buttonEditClass";
-            this.buttonEditClass.Size = new System.Drawing.Size(35, 41);
+            this.buttonEditClass.Size = new System.Drawing.Size(47, 50);
             this.buttonEditClass.TabIndex = 10;
             this.buttonEditClass.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonEditClass.UseVisualStyleBackColor = false;
@@ -230,16 +240,17 @@
             this.buttonDeleteClass.Font = new System.Drawing.Font("Ebrima", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDeleteClass.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonDeleteClass.Image = global::Skedule.Properties.Resources.delete_red_32x32;
-            this.buttonDeleteClass.Location = new System.Drawing.Point(802, 21);
+            this.buttonDeleteClass.Location = new System.Drawing.Point(1069, 26);
+            this.buttonDeleteClass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDeleteClass.Name = "buttonDeleteClass";
-            this.buttonDeleteClass.Size = new System.Drawing.Size(35, 41);
+            this.buttonDeleteClass.Size = new System.Drawing.Size(47, 50);
             this.buttonDeleteClass.TabIndex = 11;
             this.buttonDeleteClass.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonDeleteClass.UseVisualStyleBackColor = false;
             // 
             // RoutineChildForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.Controls.Add(this.listViewRoutine);
@@ -253,8 +264,10 @@
             this.Controls.Add(this.buttonAddClass);
             this.Controls.Add(this.buttonEditClass);
             this.Controls.Add(this.buttonDeleteClass);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RoutineChildForm";
-            this.Size = new System.Drawing.Size(869, 516);
+            this.Size = new System.Drawing.Size(1159, 635);
+            this.Load += new System.EventHandler(this.RoutineChildForm_Load);
             this.ResumeLayout(false);
 
         }

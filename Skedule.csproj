@@ -70,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuizChildForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuizChildForm.Designer.cs">
+      <DependentUpon>QuizChildForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Routine.cs" />
     <Compile Include="RoutineChildForm.cs">
       <SubType>UserControl</SubType>
@@ -99,6 +105,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QuizChildForm.resx">
+      <DependentUpon>QuizChildForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RoutineChildForm.resx">
       <DependentUpon>RoutineChildForm.cs</DependentUpon>
     </EmbeddedResource>
