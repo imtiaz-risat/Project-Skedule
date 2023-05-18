@@ -49,7 +49,7 @@ namespace Skedule
 
         public void ShowLoginForm()
         {
-            // Hide the dashboard form
+            // Hide the other form
             dashboardForm.Hide();
             routineForm.Hide();
             quizForm.Hide();
