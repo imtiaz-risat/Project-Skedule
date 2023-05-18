@@ -61,6 +61,7 @@
             this.listViewRoutine.TabIndex = 12;
             this.listViewRoutine.UseCompatibleStateImageBehavior = false;
             this.listViewRoutine.View = System.Windows.Forms.View.Details;
+            this.listViewRoutine.SelectedIndexChanged += new System.EventHandler(this.listViewRoutine_SelectedIndexChanged);
             // 
             // columnHeader0
             // 
@@ -207,7 +208,7 @@
             this.buttonAddClass.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonAddClass.Image = global::Skedule.Properties.Resources.add_green_32x32;
             this.buttonAddClass.Location = new System.Drawing.Point(956, 26);
-            this.buttonAddClass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAddClass.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAddClass.Name = "buttonAddClass";
             this.buttonAddClass.Size = new System.Drawing.Size(47, 50);
             this.buttonAddClass.TabIndex = 9;
@@ -224,7 +225,7 @@
             this.buttonEditClass.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonEditClass.Image = global::Skedule.Properties.Resources.edit_yellow_32x32;
             this.buttonEditClass.Location = new System.Drawing.Point(1015, 26);
-            this.buttonEditClass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonEditClass.Margin = new System.Windows.Forms.Padding(4);
             this.buttonEditClass.Name = "buttonEditClass";
             this.buttonEditClass.Size = new System.Drawing.Size(47, 50);
             this.buttonEditClass.TabIndex = 10;
@@ -241,7 +242,7 @@
             this.buttonDeleteClass.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonDeleteClass.Image = global::Skedule.Properties.Resources.delete_red_32x32;
             this.buttonDeleteClass.Location = new System.Drawing.Point(1069, 26);
-            this.buttonDeleteClass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonDeleteClass.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDeleteClass.Name = "buttonDeleteClass";
             this.buttonDeleteClass.Size = new System.Drawing.Size(47, 50);
             this.buttonDeleteClass.TabIndex = 11;

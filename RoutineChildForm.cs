@@ -24,5 +24,10 @@ namespace Skedule
         {
 
         }
+
+        private void listViewRoutine_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
