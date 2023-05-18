@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="calendar-white-36x36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar-white-36x36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="skeduleShortLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\skeduleShortLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edit-yellow-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit-yellow-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add-green-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add-green-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="assignment-white-38x38" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\assignment-white-38x38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="annoucement-white-42x42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\annoucement-white-42x42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="analysis-white-40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\analysis-white-40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="settings-white-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings-white-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home-white-45x45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home-white-45x45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete-red-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete-red-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="assignment-white-42x42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\assignment-white-42x42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow-92-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow-92-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

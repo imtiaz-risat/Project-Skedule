@@ -93,6 +93,16 @@ namespace Skedule.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_92_32 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-92-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap assignment_white_38x38 {
             get {
                 object obj = ResourceManager.GetObject("assignment-white-38x38", resourceCulture);

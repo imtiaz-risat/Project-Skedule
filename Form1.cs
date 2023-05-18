@@ -12,12 +12,15 @@ namespace Skedule
 {
     public partial class Form1 : Form
     {
+
+        // All Child forms
         private LoginChildForm loginForm;
         private DashboardChildForm dashboardForm;
         private RoutineChildForm routineForm;
         private QuizChildForm quizForm;
         private AnnouncementChildForm annoucementForm;
         private AssessmentChildForm assessmentForm;
+        private AddTodoTaskPopupForm addTodoTaskPopupForm;
 
         public Form1()
         {
@@ -31,6 +34,7 @@ namespace Skedule
             quizForm = new QuizChildForm();
             annoucementForm = new AnnouncementChildForm();
             assessmentForm = new AssessmentChildForm();
+            addTodoTaskPopupForm= new AddTodoTaskPopupForm();
 
             // Set the parent form for the child forms
             loginForm.parentForm = this;
@@ -39,6 +43,8 @@ namespace Skedule
             quizForm.parentForm = this;
             annoucementForm.parentForm = this;
             assessmentForm.parentForm = this;
+            addTodoTaskPopupForm.parentForm= this;
+
         }
 
         public void MainForm_Load(object sender, EventArgs e)
@@ -47,14 +53,21 @@ namespace Skedule
             ShowLoginForm();
         }
 
-        public void ShowLoginForm()
+        public void HideAllChildForms()
         {
-            // Hide the other form
             dashboardForm.Hide();
             routineForm.Hide();
             quizForm.Hide();
             annoucementForm.Hide();
             assessmentForm.Hide();
+            loginForm.Hide();
+            addTodoTaskPopupForm.Hide();
+        }
+
+        public void ShowLoginForm()
+        {
+            // Hide the dashboard form
+            HideAllChildForms();
 
             // Show the login form inside the panel
             loginForm.TopLevel = false;
@@ -67,11 +80,7 @@ namespace Skedule
         public void ShowDashboardForm()
         {
             // Hide the other forms
-            loginForm.Hide();
-            routineForm.Hide();
-            quizForm.Hide();
-            annoucementForm.Hide();
-            assessmentForm.Hide();
+            HideAllChildForms();
 
             // Show the dashboard form inside the panel
             dashboardForm.TopLevel = false;
@@ -83,11 +92,7 @@ namespace Skedule
         public void ShowRoutineForm()
         {
             // Hide the login form
-            loginForm.Hide();
-            dashboardForm.Hide();
-            quizForm.Hide();
-            annoucementForm.Hide();
-            assessmentForm.Hide();
+            HideAllChildForms();
 
             // Show the dashboard form inside the panel
             routineForm.TopLevel = false;
@@ -99,11 +104,7 @@ namespace Skedule
         public void ShowQuizForm()
         {
             // Hide the login form
-            loginForm.Hide();
-            dashboardForm.Hide();
-            routineForm.Hide();
-            annoucementForm.Hide();
-            assessmentForm.Hide();
+            HideAllChildForms();
 
             // Show the dashboard form inside the panel
             quizForm.TopLevel = false;
@@ -115,11 +116,7 @@ namespace Skedule
         public void ShowAnnoucemnetForm()
         {
             // Hide the login form
-            loginForm.Hide();
-            dashboardForm.Hide();
-            routineForm.Hide();
-            quizForm.Hide();
-            assessmentForm.Hide();
+            HideAllChildForms();
 
             // Show the dashboard form inside the panel
             annoucementForm.TopLevel = false;
@@ -131,17 +128,23 @@ namespace Skedule
         public void ShowAssesmentForm()
         {
             // Hide the login form
-            loginForm.Hide();
-            dashboardForm.Hide();
-            routineForm.Hide();
-            quizForm.Hide();
-            annoucementForm.Hide();
+            HideAllChildForms();
 
             // Show the dashboard form inside the panel
             assessmentForm.TopLevel = false;
             assessmentForm.Dock = DockStyle.Fill;
             childFormPanel.Controls.Add(assessmentForm);
             assessmentForm.Show();
+        }
+
+        public void ShowAddTaskPopUpForm()
+        {
+            HideAllChildForms();
+
+            addTodoTaskPopupForm.TopLevel = false;
+            addTodoTaskPopupForm.Dock = DockStyle.Top;
+            childFormPanel.Controls.Add(addTodoTaskPopupForm);
+            addTodoTaskPopupForm.Show();
         }
 
         private void menuButtonHome_Click(object sender, EventArgs e)
