@@ -36,21 +36,22 @@
             this.labelLogin.AutoSize = true;
             this.labelLogin.Font = new System.Drawing.Font("Ebrima", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLogin.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelLogin.Location = new System.Drawing.Point(172, 83);
-            this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelLogin.Location = new System.Drawing.Point(129, 67);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(281, 46);
+            this.labelLogin.Size = new System.Drawing.Size(224, 37);
             this.labelLogin.TabIndex = 11;
             this.labelLogin.Text = "Announcements";
             // 
             // AnnouncementChildForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.Controls.Add(this.labelLogin);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AnnouncementChildForm";
-            this.Size = new System.Drawing.Size(1159, 635);
+            this.Size = new System.Drawing.Size(869, 516);
+            this.Load += new System.EventHandler(this.AnnouncementChildForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,6 +16,9 @@ namespace Skedule
         private DashboardChildForm dashboardForm;
         private RoutineChildForm routineForm;
         private QuizChildForm quizForm;
+        private AnnouncementChildForm annoucementForm;
+        private AssessmentChildForm assessmentForm;
+
         public Form1()
         {
             InitializeComponent();
@@ -26,12 +29,16 @@ namespace Skedule
             dashboardForm = new DashboardChildForm();
             routineForm = new RoutineChildForm();
             quizForm = new QuizChildForm();
+            annoucementForm = new AnnouncementChildForm();
+            assessmentForm = new AssessmentChildForm();
 
             // Set the parent form for the child forms
             loginForm.parentForm = this;
             dashboardForm.parentForm = this;
             routineForm.parentForm = this;
             quizForm.parentForm = this;
+            annoucementForm.parentForm = this;
+            assessmentForm.parentForm = this;
         }
 
         public void MainForm_Load(object sender, EventArgs e)
@@ -46,6 +53,8 @@ namespace Skedule
             dashboardForm.Hide();
             routineForm.Hide();
             quizForm.Hide();
+            annoucementForm.Hide();
+            assessmentForm.Hide();
 
             // Show the login form inside the panel
             loginForm.TopLevel = false;
@@ -61,6 +70,8 @@ namespace Skedule
             loginForm.Hide();
             routineForm.Hide();
             quizForm.Hide();
+            annoucementForm.Hide();
+            assessmentForm.Hide();
 
             // Show the dashboard form inside the panel
             dashboardForm.TopLevel = false;
@@ -75,6 +86,8 @@ namespace Skedule
             loginForm.Hide();
             dashboardForm.Hide();
             quizForm.Hide();
+            annoucementForm.Hide();
+            assessmentForm.Hide();
 
             // Show the dashboard form inside the panel
             routineForm.TopLevel = false;
@@ -89,12 +102,46 @@ namespace Skedule
             loginForm.Hide();
             dashboardForm.Hide();
             routineForm.Hide();
+            annoucementForm.Hide();
+            assessmentForm.Hide();
 
             // Show the dashboard form inside the panel
             quizForm.TopLevel = false;
             quizForm.Dock = DockStyle.Fill;
-            childFormPanel.Controls.Add(routineForm);
+            childFormPanel.Controls.Add(quizForm);
             quizForm.Show();
+        }
+
+        public void ShowAnnoucemnetForm()
+        {
+            // Hide the login form
+            loginForm.Hide();
+            dashboardForm.Hide();
+            routineForm.Hide();
+            quizForm.Hide();
+            assessmentForm.Hide();
+
+            // Show the dashboard form inside the panel
+            annoucementForm.TopLevel = false;
+            annoucementForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(annoucementForm);
+            annoucementForm.Show();
+        }
+
+        public void ShowAssesmentForm()
+        {
+            // Hide the login form
+            loginForm.Hide();
+            dashboardForm.Hide();
+            routineForm.Hide();
+            quizForm.Hide();
+            annoucementForm.Hide();
+
+            // Show the dashboard form inside the panel
+            assessmentForm.TopLevel = false;
+            assessmentForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(assessmentForm);
+            assessmentForm.Show();
         }
 
         private void menuButtonHome_Click(object sender, EventArgs e)
@@ -105,6 +152,21 @@ namespace Skedule
         private void menuButtonRoutine_Click(object sender, EventArgs e)
         {
             ShowRoutineForm();
+        }
+
+        private void menuButtonAnnoucemnet_Click(object sender, EventArgs e)
+        {
+            ShowAnnoucemnetForm();
+        }
+
+        private void menuButtonQuiz_Click(object sender, EventArgs e)
+        {
+            ShowQuizForm();
+        }
+
+        private void menuButtonAnalysis_Click(object sender, EventArgs e)
+        {
+            ShowAssesmentForm();
         }
     }
 }

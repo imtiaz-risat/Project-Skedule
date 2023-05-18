@@ -12,9 +12,17 @@ namespace Skedule
 {
     public partial class AnnouncementChildForm : UserControl
     {
+        public Form1 parentForm { get; set; }
+        public bool TopLevel { get; internal set; }
+
         public AnnouncementChildForm()
         {
             InitializeComponent();
+        }
+
+        private void AnnouncementChildForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

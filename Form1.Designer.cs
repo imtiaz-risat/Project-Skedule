@@ -33,7 +33,7 @@
             this.menuButtonSettings = new System.Windows.Forms.Button();
             this.menuButtonAnalysis = new System.Windows.Forms.Button();
             this.menuButtonQuiz = new System.Windows.Forms.Button();
-            this.menuButtonAssignment = new System.Windows.Forms.Button();
+            this.menuButtonAnnoucement = new System.Windows.Forms.Button();
             this.menuButtonRoutine = new System.Windows.Forms.Button();
             this.menuButtonHome = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -56,7 +56,7 @@
             this.menuPanel.Controls.Add(this.menuButtonSettings);
             this.menuPanel.Controls.Add(this.menuButtonAnalysis);
             this.menuPanel.Controls.Add(this.menuButtonQuiz);
-            this.menuPanel.Controls.Add(this.menuButtonAssignment);
+            this.menuPanel.Controls.Add(this.menuButtonAnnoucement);
             this.menuPanel.Controls.Add(this.menuButtonRoutine);
             this.menuPanel.Controls.Add(this.menuButtonHome);
             this.menuPanel.Controls.Add(this.panel2);
@@ -93,6 +93,7 @@
             this.menuButtonAnalysis.TabIndex = 0;
             this.menuButtonAnalysis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuButtonAnalysis.UseVisualStyleBackColor = true;
+            this.menuButtonAnalysis.Click += new System.EventHandler(this.menuButtonAnalysis_Click);
             // 
             // menuButtonQuiz
             // 
@@ -107,20 +108,22 @@
             this.menuButtonQuiz.TabIndex = 0;
             this.menuButtonQuiz.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuButtonQuiz.UseVisualStyleBackColor = true;
+            this.menuButtonQuiz.Click += new System.EventHandler(this.menuButtonQuiz_Click);
             // 
-            // menuButtonAssignment
+            // menuButtonAnnoucement
             // 
-            this.menuButtonAssignment.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menuButtonAssignment.FlatAppearance.BorderSize = 0;
-            this.menuButtonAssignment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.menuButtonAssignment.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.menuButtonAssignment.Image = global::Skedule.Properties.Resources.annoucement_white_42x42;
-            this.menuButtonAssignment.Location = new System.Drawing.Point(0, 239);
-            this.menuButtonAssignment.Name = "menuButtonAssignment";
-            this.menuButtonAssignment.Size = new System.Drawing.Size(82, 77);
-            this.menuButtonAssignment.TabIndex = 0;
-            this.menuButtonAssignment.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menuButtonAssignment.UseVisualStyleBackColor = true;
+            this.menuButtonAnnoucement.Dock = System.Windows.Forms.DockStyle.Top;
+            this.menuButtonAnnoucement.FlatAppearance.BorderSize = 0;
+            this.menuButtonAnnoucement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menuButtonAnnoucement.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.menuButtonAnnoucement.Image = global::Skedule.Properties.Resources.annoucement_white_42x42;
+            this.menuButtonAnnoucement.Location = new System.Drawing.Point(0, 239);
+            this.menuButtonAnnoucement.Name = "menuButtonAnnoucement";
+            this.menuButtonAnnoucement.Size = new System.Drawing.Size(82, 77);
+            this.menuButtonAnnoucement.TabIndex = 0;
+            this.menuButtonAnnoucement.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuButtonAnnoucement.UseVisualStyleBackColor = true;
+            this.menuButtonAnnoucement.Click += new System.EventHandler(this.menuButtonAnnoucemnet_Click);
             // 
             // menuButtonRoutine
             // 
@@ -253,7 +256,7 @@
         private System.Windows.Forms.Button menuButtonSettings;
         private System.Windows.Forms.Button menuButtonAnalysis;
         private System.Windows.Forms.Button menuButtonQuiz;
-        private System.Windows.Forms.Button menuButtonAssignment;
+        private System.Windows.Forms.Button menuButtonAnnoucement;
         private System.Windows.Forms.Button menuButtonRoutine;
         private System.Windows.Forms.Button menuButtonHome;
         private System.Windows.Forms.Panel panel2;
