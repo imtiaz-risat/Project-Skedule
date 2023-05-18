@@ -10,6 +10,8 @@ namespace Skedule
 {
     public class Student
     {
+        internal Form1 parentForm;
+
         public int id { get; set; }
         public string username { get; set; }
         public string password { get; set; }
@@ -17,7 +19,7 @@ namespace Skedule
         public string lastName { get; set; }
         public DateTime birthDate { get; set; }
         public string emailAddress { get; set; }
-
+        public List<TodoTasks> todoTasks { get; set; }
 
 
         public Student(string userName, string passWord, string firstname, string lastname, string email, DateTime birthday)

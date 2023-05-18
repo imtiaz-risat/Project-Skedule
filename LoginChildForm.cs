@@ -36,6 +36,7 @@ namespace Skedule
             {
                 MessageBox.Show("Login successful!");
                 // After successful login
+                //parentForm.CurrentStudent = student;
                 parentForm.ShowDashboardForm();
 
             }

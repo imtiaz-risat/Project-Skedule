@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTodoTaskPopupForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddTodoTaskPopupForm.Designer.cs">
+      <DependentUpon>AddTodoTaskPopupForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Annoucement.cs" />
     <Compile Include="AnnouncementChildForm.cs">
       <SubType>UserControl</SubType>
@@ -98,6 +104,10 @@
     <Compile Include="Student.cs" />
     <Compile Include="Subject.cs" />
     <Compile Include="Task.cs" />
+    <Compile Include="TodoTasks.cs" />
+    <EmbeddedResource Include="AddTodoTaskPopupForm.resx">
+      <DependentUpon>AddTodoTaskPopupForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AnnouncementChildForm.resx">
       <DependentUpon>AnnouncementChildForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +184,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\settings-white-32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-92-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
