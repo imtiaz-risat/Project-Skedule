@@ -135,6 +135,7 @@
             this.menuButtonRoutine.TabIndex = 0;
             this.menuButtonRoutine.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuButtonRoutine.UseVisualStyleBackColor = true;
+            this.menuButtonRoutine.Click += new System.EventHandler(this.menuButtonRoutine_Click);
             // 
             // menuButtonHome
             // 
@@ -149,6 +150,7 @@
             this.menuButtonHome.TabIndex = 0;
             this.menuButtonHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuButtonHome.UseVisualStyleBackColor = true;
+            this.menuButtonHome.Click += new System.EventHandler(this.menuButtonHome_Click);
             // 
             // panel2
             // 

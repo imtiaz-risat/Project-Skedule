@@ -60,10 +60,9 @@
             this.buttonSignup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSignup.Font = new System.Drawing.Font("Ebrima", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSignup.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonSignup.Location = new System.Drawing.Point(208, 498);
-            this.buttonSignup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSignup.Location = new System.Drawing.Point(156, 405);
             this.buttonSignup.Name = "buttonSignup";
-            this.buttonSignup.Size = new System.Drawing.Size(216, 55);
+            this.buttonSignup.Size = new System.Drawing.Size(162, 45);
             this.buttonSignup.TabIndex = 17;
             this.buttonSignup.Text = "Signup";
             this.buttonSignup.UseVisualStyleBackColor = false;
@@ -77,10 +76,9 @@
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogin.Font = new System.Drawing.Font("Ebrima", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogin.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonLogin.Location = new System.Drawing.Point(740, 363);
-            this.buttonLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonLogin.Location = new System.Drawing.Point(555, 295);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(216, 55);
+            this.buttonLogin.Size = new System.Drawing.Size(162, 45);
             this.buttonLogin.TabIndex = 18;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = false;
@@ -89,55 +87,49 @@
             // textBoxSignupConfirmPass
             // 
             this.textBoxSignupConfirmPass.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSignupConfirmPass.Location = new System.Drawing.Point(173, 327);
-            this.textBoxSignupConfirmPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSignupConfirmPass.Location = new System.Drawing.Point(130, 266);
             this.textBoxSignupConfirmPass.Name = "textBoxSignupConfirmPass";
-            this.textBoxSignupConfirmPass.Size = new System.Drawing.Size(284, 33);
+            this.textBoxSignupConfirmPass.Size = new System.Drawing.Size(214, 28);
             this.textBoxSignupConfirmPass.TabIndex = 11;
             // 
             // textBoxSignupPassword
             // 
             this.textBoxSignupPassword.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSignupPassword.Location = new System.Drawing.Point(173, 265);
-            this.textBoxSignupPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSignupPassword.Location = new System.Drawing.Point(130, 215);
             this.textBoxSignupPassword.Name = "textBoxSignupPassword";
-            this.textBoxSignupPassword.Size = new System.Drawing.Size(284, 33);
+            this.textBoxSignupPassword.Size = new System.Drawing.Size(214, 28);
             this.textBoxSignupPassword.TabIndex = 12;
             // 
             // textBoxSignupUsername
             // 
             this.textBoxSignupUsername.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSignupUsername.Location = new System.Drawing.Point(173, 202);
-            this.textBoxSignupUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSignupUsername.Location = new System.Drawing.Point(130, 164);
             this.textBoxSignupUsername.Name = "textBoxSignupUsername";
-            this.textBoxSignupUsername.Size = new System.Drawing.Size(284, 33);
+            this.textBoxSignupUsername.Size = new System.Drawing.Size(214, 28);
             this.textBoxSignupUsername.TabIndex = 13;
             // 
             // textBoxSignupEmail
             // 
             this.textBoxSignupEmail.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSignupEmail.Location = new System.Drawing.Point(173, 139);
-            this.textBoxSignupEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSignupEmail.Location = new System.Drawing.Point(130, 113);
             this.textBoxSignupEmail.Name = "textBoxSignupEmail";
-            this.textBoxSignupEmail.Size = new System.Drawing.Size(284, 33);
+            this.textBoxSignupEmail.Size = new System.Drawing.Size(214, 28);
             this.textBoxSignupEmail.TabIndex = 14;
             // 
             // textBoxLoginPassword
             // 
             this.textBoxLoginPassword.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLoginPassword.Location = new System.Drawing.Point(708, 300);
-            this.textBoxLoginPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxLoginPassword.Location = new System.Drawing.Point(531, 244);
             this.textBoxLoginPassword.Name = "textBoxLoginPassword";
-            this.textBoxLoginPassword.Size = new System.Drawing.Size(284, 33);
+            this.textBoxLoginPassword.Size = new System.Drawing.Size(214, 28);
             this.textBoxLoginPassword.TabIndex = 15;
             // 
             // textBoxLoginUsername
             // 
             this.textBoxLoginUsername.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLoginUsername.Location = new System.Drawing.Point(708, 238);
-            this.textBoxLoginUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxLoginUsername.Location = new System.Drawing.Point(531, 193);
             this.textBoxLoginUsername.Name = "textBoxLoginUsername";
-            this.textBoxLoginUsername.Size = new System.Drawing.Size(284, 33);
+            this.textBoxLoginUsername.Size = new System.Drawing.Size(214, 28);
             this.textBoxLoginUsername.TabIndex = 16;
             // 
             // labelSignup
@@ -145,10 +137,9 @@
             this.labelSignup.AutoSize = true;
             this.labelSignup.Font = new System.Drawing.Font("Ebrima", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSignup.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelSignup.Location = new System.Drawing.Point(165, 54);
-            this.labelSignup.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSignup.Location = new System.Drawing.Point(124, 44);
             this.labelSignup.Name = "labelSignup";
-            this.labelSignup.Size = new System.Drawing.Size(133, 46);
+            this.labelSignup.Size = new System.Drawing.Size(106, 37);
             this.labelSignup.TabIndex = 3;
             this.labelSignup.Text = "Signup";
             // 
@@ -157,10 +148,9 @@
             this.labelSignupConfirmPass.AutoSize = true;
             this.labelSignupConfirmPass.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSignupConfirmPass.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelSignupConfirmPass.Location = new System.Drawing.Point(168, 302);
-            this.labelSignupConfirmPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSignupConfirmPass.Location = new System.Drawing.Point(126, 245);
             this.labelSignupConfirmPass.Name = "labelSignupConfirmPass";
-            this.labelSignupConfirmPass.Size = new System.Drawing.Size(175, 25);
+            this.labelSignupConfirmPass.Size = new System.Drawing.Size(137, 20);
             this.labelSignupConfirmPass.TabIndex = 4;
             this.labelSignupConfirmPass.Text = "Confirm Password";
             // 
@@ -169,10 +159,9 @@
             this.labelLoginPassword.AutoSize = true;
             this.labelLoginPassword.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLoginPassword.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelLoginPassword.Location = new System.Drawing.Point(703, 274);
-            this.labelLoginPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelLoginPassword.Location = new System.Drawing.Point(527, 223);
             this.labelLoginPassword.Name = "labelLoginPassword";
-            this.labelLoginPassword.Size = new System.Drawing.Size(97, 25);
+            this.labelLoginPassword.Size = new System.Drawing.Size(76, 20);
             this.labelLoginPassword.TabIndex = 5;
             this.labelLoginPassword.Text = "Password";
             // 
@@ -181,10 +170,9 @@
             this.labelSignupPassword.AutoSize = true;
             this.labelSignupPassword.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSignupPassword.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelSignupPassword.Location = new System.Drawing.Point(168, 239);
-            this.labelSignupPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSignupPassword.Location = new System.Drawing.Point(126, 194);
             this.labelSignupPassword.Name = "labelSignupPassword";
-            this.labelSignupPassword.Size = new System.Drawing.Size(97, 25);
+            this.labelSignupPassword.Size = new System.Drawing.Size(76, 20);
             this.labelSignupPassword.TabIndex = 6;
             this.labelSignupPassword.Text = "Password";
             // 
@@ -193,10 +181,9 @@
             this.labelSignupUsername.AutoSize = true;
             this.labelSignupUsername.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSignupUsername.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelSignupUsername.Location = new System.Drawing.Point(168, 176);
-            this.labelSignupUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSignupUsername.Location = new System.Drawing.Point(126, 143);
             this.labelSignupUsername.Name = "labelSignupUsername";
-            this.labelSignupUsername.Size = new System.Drawing.Size(101, 25);
+            this.labelSignupUsername.Size = new System.Drawing.Size(80, 20);
             this.labelSignupUsername.TabIndex = 7;
             this.labelSignupUsername.Text = "Username";
             // 
@@ -205,10 +192,9 @@
             this.labelSigupEmail.AutoSize = true;
             this.labelSigupEmail.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSigupEmail.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelSigupEmail.Location = new System.Drawing.Point(168, 113);
-            this.labelSigupEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSigupEmail.Location = new System.Drawing.Point(126, 92);
             this.labelSigupEmail.Name = "labelSigupEmail";
-            this.labelSigupEmail.Size = new System.Drawing.Size(59, 25);
+            this.labelSigupEmail.Size = new System.Drawing.Size(47, 20);
             this.labelSigupEmail.TabIndex = 8;
             this.labelSigupEmail.Text = "Email";
             // 
@@ -217,10 +203,9 @@
             this.labelLoginUsername.AutoSize = true;
             this.labelLoginUsername.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLoginUsername.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelLoginUsername.Location = new System.Drawing.Point(703, 209);
-            this.labelLoginUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelLoginUsername.Location = new System.Drawing.Point(527, 170);
             this.labelLoginUsername.Name = "labelLoginUsername";
-            this.labelLoginUsername.Size = new System.Drawing.Size(101, 25);
+            this.labelLoginUsername.Size = new System.Drawing.Size(80, 20);
             this.labelLoginUsername.TabIndex = 9;
             this.labelLoginUsername.Text = "Username";
             // 
@@ -229,29 +214,26 @@
             this.labelLogin.AutoSize = true;
             this.labelLogin.Font = new System.Drawing.Font("Ebrima", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLogin.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelLogin.Location = new System.Drawing.Point(700, 155);
-            this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelLogin.Location = new System.Drawing.Point(525, 126);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(110, 46);
+            this.labelLogin.Size = new System.Drawing.Size(89, 37);
             this.labelLogin.TabIndex = 10;
             this.labelLogin.Text = "Login";
             // 
             // textBoxSignupFirstname
             // 
             this.textBoxSignupFirstname.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSignupFirstname.Location = new System.Drawing.Point(173, 391);
-            this.textBoxSignupFirstname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSignupFirstname.Location = new System.Drawing.Point(130, 318);
             this.textBoxSignupFirstname.Name = "textBoxSignupFirstname";
-            this.textBoxSignupFirstname.Size = new System.Drawing.Size(137, 33);
+            this.textBoxSignupFirstname.Size = new System.Drawing.Size(104, 28);
             this.textBoxSignupFirstname.TabIndex = 11;
             // 
             // textBoxSignupLastname
             // 
             this.textBoxSignupLastname.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSignupLastname.Location = new System.Drawing.Point(320, 391);
-            this.textBoxSignupLastname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSignupLastname.Location = new System.Drawing.Point(240, 318);
             this.textBoxSignupLastname.Name = "textBoxSignupLastname";
-            this.textBoxSignupLastname.Size = new System.Drawing.Size(137, 33);
+            this.textBoxSignupLastname.Size = new System.Drawing.Size(104, 28);
             this.textBoxSignupLastname.TabIndex = 11;
             // 
             // label1
@@ -259,10 +241,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(168, 364);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(126, 296);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 25);
+            this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Firstname";
             // 
@@ -271,10 +252,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(315, 366);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(236, 297);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 25);
+            this.label2.Size = new System.Drawing.Size(77, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Lastname";
             // 
@@ -283,24 +263,22 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(169, 430);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(127, 349);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 25);
+            this.label3.Size = new System.Drawing.Size(100, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Date of Birth";
             // 
             // birthdatePickerSignup
             // 
-            this.birthdatePickerSignup.Location = new System.Drawing.Point(175, 458);
-            this.birthdatePickerSignup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.birthdatePickerSignup.Location = new System.Drawing.Point(131, 372);
             this.birthdatePickerSignup.Name = "birthdatePickerSignup";
-            this.birthdatePickerSignup.Size = new System.Drawing.Size(283, 22);
+            this.birthdatePickerSignup.Size = new System.Drawing.Size(213, 20);
             this.birthdatePickerSignup.TabIndex = 19;
             // 
             // LoginChildForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.Controls.Add(this.birthdatePickerSignup);
@@ -325,9 +303,8 @@
             this.Controls.Add(this.labelSigupEmail);
             this.Controls.Add(this.labelLoginUsername);
             this.Controls.Add(this.labelLogin);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LoginChildForm";
-            this.Size = new System.Drawing.Size(1159, 635);
+            this.Size = new System.Drawing.Size(869, 516);
             this.ResumeLayout(false);
             this.PerformLayout();
 

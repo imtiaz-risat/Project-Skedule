@@ -35,7 +35,6 @@ namespace Skedule
             if (student != null && student.password == password)
             {
                 MessageBox.Show("Login successful!");
-                // Open the main form or perform any necessary actions
                 // After successful login
                 parentForm.ShowDashboardForm();
 

@@ -12,6 +12,9 @@ namespace Skedule
 {
     public partial class RoutineChildForm : UserControl
     {
+        public Form1 parentForm { get; set; }
+        public bool TopLevel { get; internal set; }
+
         public RoutineChildForm()
         {
             InitializeComponent();

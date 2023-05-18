@@ -14,7 +14,8 @@ namespace Skedule
     {
         private LoginChildForm loginForm;
         private DashboardChildForm dashboardForm;
-
+        private RoutineChildForm routineForm;
+        private QuizChildForm quizForm;
         public Form1()
         {
             InitializeComponent();
@@ -23,10 +24,14 @@ namespace Skedule
             // Instantiate the child forms
             loginForm = new LoginChildForm();
             dashboardForm = new DashboardChildForm();
+            routineForm = new RoutineChildForm();
+            quizForm = new QuizChildForm();
 
             // Set the parent form for the child forms
             loginForm.parentForm = this;
             dashboardForm.parentForm = this;
+            routineForm.parentForm = this;
+            quizForm.parentForm = this;
         }
 
         public void MainForm_Load(object sender, EventArgs e)
@@ -39,6 +44,8 @@ namespace Skedule
         {
             // Hide the dashboard form
             dashboardForm.Hide();
+            routineForm.Hide();
+            quizForm.Hide();
 
             // Show the login form inside the panel
             loginForm.TopLevel = false;
@@ -50,8 +57,10 @@ namespace Skedule
 
         public void ShowDashboardForm()
         {
-            // Hide the login form
+            // Hide the other forms
             loginForm.Hide();
+            routineForm.Hide();
+            quizForm.Hide();
 
             // Show the dashboard form inside the panel
             dashboardForm.TopLevel = false;
@@ -60,6 +69,42 @@ namespace Skedule
             dashboardForm.Show();
         }
 
+        public void ShowRoutineForm()
+        {
+            // Hide the login form
+            loginForm.Hide();
+            dashboardForm.Hide();
+            quizForm.Hide();
 
+            // Show the dashboard form inside the panel
+            routineForm.TopLevel = false;
+            routineForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(routineForm);
+            routineForm.Show();
+        }
+
+        public void ShowQuizForm()
+        {
+            // Hide the login form
+            loginForm.Hide();
+            dashboardForm.Hide();
+            routineForm.Hide();
+
+            // Show the dashboard form inside the panel
+            quizForm.TopLevel = false;
+            quizForm.Dock = DockStyle.Fill;
+            childFormPanel.Controls.Add(routineForm);
+            quizForm.Show();
+        }
+
+        private void menuButtonHome_Click(object sender, EventArgs e)
+        {
+            ShowDashboardForm();
+        }
+
+        private void menuButtonRoutine_Click(object sender, EventArgs e)
+        {
+            ShowRoutineForm();
+        }
     }
 }
