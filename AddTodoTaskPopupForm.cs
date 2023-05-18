@@ -33,9 +33,10 @@ namespace Skedule
             string taskDetails = addTaskTaskDetailsTextBox.Text;
 
             TodoTasks task = new TodoTasks(startDate, endDate, taskDetails);
-            
+
             // Need to add to the tasklist of logged in user
-            //parentForm.CurrentStudent.todoTasks.Add(task);
+            MessageBox.Show(parentForm.CurrentStudent.firstName);
+            parentForm.CurrentStudent.todoTasks.Add(task);
         }
     }
 }

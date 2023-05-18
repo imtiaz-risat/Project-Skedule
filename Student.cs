@@ -19,7 +19,8 @@ namespace Skedule
         public string lastName { get; set; }
         public DateTime birthDate { get; set; }
         public string emailAddress { get; set; }
-        public List<TodoTasks> todoTasks { get; set; }
+        public List<TodoTasks> todoTasks = new List<TodoTasks> { };
+        public bool isLoggedin = false;
 
 
         public Student(string userName, string passWord, string firstname, string lastname, string email, DateTime birthday)

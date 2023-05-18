@@ -12,6 +12,8 @@ namespace Skedule
 {
     public partial class Form1 : Form
     {
+        // Login Status
+        public Student CurrentStudent;
 
         // All Child forms
         private LoginChildForm loginForm;
@@ -35,6 +37,11 @@ namespace Skedule
             annoucementForm = new AnnouncementChildForm();
             assessmentForm = new AssessmentChildForm();
             addTodoTaskPopupForm= new AddTodoTaskPopupForm();
+
+
+            CurrentStudent = new Student("Admin", "123", "Imtiaz", "Risat", "imtiaz@gamil.com", DateTime.Now);
+            CurrentStudent.parentForm = this;
+
 
             // Set the parent form for the child forms
             loginForm.parentForm = this;
@@ -147,29 +154,39 @@ namespace Skedule
             addTodoTaskPopupForm.Show();
         }
 
+        public bool LoginStatus()
+        {
+            return CurrentStudent.isLoggedin;
+        }
+
         private void menuButtonHome_Click(object sender, EventArgs e)
         {
-            ShowDashboardForm();
+            if (LoginStatus())
+                ShowDashboardForm();
         }
 
         private void menuButtonRoutine_Click(object sender, EventArgs e)
         {
-            ShowRoutineForm();
+            if (LoginStatus())
+                ShowRoutineForm();
         }
 
         private void menuButtonAnnoucemnet_Click(object sender, EventArgs e)
         {
-            ShowAnnoucemnetForm();
+            if (LoginStatus())
+                ShowAnnoucemnetForm();
         }
 
         private void menuButtonQuiz_Click(object sender, EventArgs e)
         {
-            ShowQuizForm();
+            if (LoginStatus())
+                ShowQuizForm();
         }
 
         private void menuButtonAnalysis_Click(object sender, EventArgs e)
         {
-            ShowAssesmentForm();
+            if (LoginStatus())
+                ShowAssesmentForm();
         }
     }
 }

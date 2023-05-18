@@ -21,7 +21,7 @@ namespace Skedule
         public LoginChildForm()
         {
             InitializeComponent();
-            studentsList = new List<Student>();
+           studentsList = new List<Student>();
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -36,9 +36,9 @@ namespace Skedule
             {
                 MessageBox.Show("Login successful!");
                 // After successful login
-                //parentForm.CurrentStudent = student;
+                student.isLoggedin = true;
+                parentForm.CurrentStudent = student;
                 parentForm.ShowDashboardForm();
-
             }
             else
             {
