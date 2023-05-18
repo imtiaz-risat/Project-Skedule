@@ -47,6 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Annoucement.cs" />
+    <Compile Include="AnnouncementChildForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AnnouncementChildForm.Designer.cs">
+      <DependentUpon>AnnouncementChildForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssessmentChildForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AssessmentChildForm.Designer.cs">
+      <DependentUpon>AssessmentChildForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classroom.cs" />
     <Compile Include="DashboardChildForm.cs">
       <SubType>UserControl</SubType>
@@ -86,6 +98,12 @@
     <Compile Include="Student.cs" />
     <Compile Include="Subject.cs" />
     <Compile Include="Task.cs" />
+    <EmbeddedResource Include="AnnouncementChildForm.resx">
+      <DependentUpon>AnnouncementChildForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssessmentChildForm.resx">
+      <DependentUpon>AssessmentChildForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DashboardChildForm.resx">
       <DependentUpon>DashboardChildForm.cs</DependentUpon>
     </EmbeddedResource>

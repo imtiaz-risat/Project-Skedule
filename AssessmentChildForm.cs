@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Skedule
 {
-    public partial class RoutineChildForm : UserControl
+    public partial class AssessmentChildForm : UserControl
     {
-        public RoutineChildForm()
+        public AssessmentChildForm()
         {
             InitializeComponent();
         }
 
-        private void RoutineChildForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listViewRoutine_SelectedIndexChanged(object sender, EventArgs e)
+        private void labelLogin_Click(object sender, EventArgs e)
         {
 
         }
