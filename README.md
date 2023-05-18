@@ -1,4 +1,9 @@
-# Skedule
+# Skedule Application Documentation
+
+**Software Specifications**  
+Name: Skedule  
+Programming Language: C#  
+Framework: .NET
 
 ## Introduction
 
@@ -41,6 +46,12 @@ Skedule includes an in-built clock on the home page/dashboard. It displays the c
 ## Additional Micro Features
 
 Skedule also offers several additional micro features designed to simplify students' lives further. These features, although not explicitly mentioned in the description, enhance the overall user experience and provide added convenience and efficiency.
+
+## Using Skedule
+
+As a first-time user, one need to register using one's academic credentials provided by institution. After successful login, one can navigate through various modules using the side navigation panel. Each module has its functionality and actions that can be performed.
+
+**Note:** Some features such as 'Announcements' and 'Events/Advertisements' require special permissions, available only to CRs or Captains. 
 
 ## Conclusion
 
