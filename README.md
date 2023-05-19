@@ -1,6 +1,6 @@
 # Skedule Application Documentation
 
-**Software Specifications**  
+## Software Specifications
 Name: Skedule  
 Programming Language: C#  
 Framework: .NET
